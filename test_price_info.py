@@ -7,6 +7,7 @@ def test_total_cost_shopping():
     result = price_info.total_cost_shopping()
 
     assert (result == test)
+    
 test_total_cost_shopping()
 
 def test_cost_of_fruit():
